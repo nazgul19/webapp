@@ -3,7 +3,7 @@ pipeline {
         label 'slave1'
     }
     environment{
-        SONAR_TOKEN = '9fa3df25f98ade234a3581f3291de083c161ee60'
+        SONAR_TOKEN = 'a5f81f1d47af93a16d85fa772356fc92a3b00a6d'
     }
     stages {
         stage('Build') {
